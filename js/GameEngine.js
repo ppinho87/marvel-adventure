@@ -444,7 +444,7 @@ GameEngine = Class.extend({
                 var mainPlayerCoordX = sorted[i]['name'].coordX/1600 * 100;
                 var mainPlayerCoordY = sorted[i]['name'].coordY/1600 * 100;
                 gGameEngine.ctx.fillStyle = 'red';
-                gGameEngine.ctx.fillRect(mainPlayerCoordX + gGameEngine.canvasWidth-100, mainPlayerCoordY, 5, 5);
+                gGameEngine.ctx.fillRect(mainPlayerCoordX + gGameEngine.canvasWidth-100, mainPlayerCoordY, 10, 10);
             }
             else {
                 var characterCoordX = sorted[i]['name'].coordX/1600 * 100;
