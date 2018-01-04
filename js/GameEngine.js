@@ -1,7 +1,7 @@
 GameEngine = Class.extend({
-    tileSize: 40,
-    tilesX: 50,
-    tilesY: 50,
+    tileSize: 32,
+    tilesX: 60,
+    tilesY: 60,
     timeAverage: [],
     time: 0,
     fps: 0,
