@@ -450,7 +450,7 @@ GameEngine = Class.extend({
                 var characterCoordX = sorted[i]['name'].coordX/1600 * 100;
                 var characterCoordY = sorted[i]['name'].coordY/1600 * 100;
                 gGameEngine.ctx.fillStyle = 'blue';
-                gGameEngine.ctx.fillRect(characterCoordX + gGameEngine.canvasWidth-100, characterCoordY, 5, 5);
+                gGameEngine.ctx.fillRect(characterCoordX + gGameEngine.canvasWidth-100, characterCoordY, 10, 10);
             }
             
         }
