@@ -61,7 +61,7 @@ GameEngine = Class.extend({
         gInputEngine.setup();
         mainPlayer = new Player();
         characterOne = new Character(576, 224, 'character_one', 'up', [704, 64]);
-        characterTwo = new Character(850, 200, 'character_two', 'down', [608, 288]); //850 200
+        characterTwo = new Character(860, 200, 'character_two', 'down', [608, 288]); //860 200
         characterThree = new Character(192, 148, 'character_three', 'up', [192, 148]);
         characterFour = new Character(320, 148, 'character_four', 'up', [320, 148]);
         characterFive = new Character(414, 244, 'character_five', 'up', [414, 244]);
@@ -233,8 +233,8 @@ GameEngine = Class.extend({
         
         for (percentIndex; percentIndex <= this.progressBarPercent; percentIndex++) {
             this.ctx.fillStyle = 'green';
-            this.ctx.strokeRect(1, this.canvasHeight/2-25, this.canvasWidth-2, 50);
-            this.ctx.fillRect(2, this.canvasHeight/2-25+1, this.canvasWidth*(percentIndex/100)-3, 50-2);
+            this.ctx.strokeRect(1, this.canvasHeight/2-25, this.canvasWidth-2, 60);
+            this.ctx.fillRect(2, this.canvasHeight/2-25+1, this.canvasWidth*(percentIndex/100)-3, 60-2);
         }
         if (percentIndex >= 100) {
             //this.ctx.clearRect(0, 0, this.canvasWidth, this.canvasHeight);
