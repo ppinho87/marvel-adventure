@@ -1,5 +1,5 @@
 GameEngine = Class.extend({
-    tileSize: 32,
+    tileSize: 40,
     tilesX: 50,
     tilesY: 50,
     timeAverage: [],
@@ -444,13 +444,13 @@ GameEngine = Class.extend({
                 var mainPlayerCoordX = sorted[i]['name'].coordX/1600 * 100;
                 var mainPlayerCoordY = sorted[i]['name'].coordY/1600 * 100;
                 gGameEngine.ctx.fillStyle = 'red';
-                gGameEngine.ctx.fillRect(mainPlayerCoordX + gGameEngine.canvasWidth-100, mainPlayerCoordY, 10, 10);
+                gGameEngine.ctx.fillRect(mainPlayerCoordX + gGameEngine.canvasWidth-100, mainPlayerCoordY, 5, 5);
             }
             else {
                 var characterCoordX = sorted[i]['name'].coordX/1600 * 100;
                 var characterCoordY = sorted[i]['name'].coordY/1600 * 100;
                 gGameEngine.ctx.fillStyle = 'blue';
-                gGameEngine.ctx.fillRect(characterCoordX + gGameEngine.canvasWidth-100, characterCoordY, 10, 10);
+                gGameEngine.ctx.fillRect(characterCoordX + gGameEngine.canvasWidth-100, characterCoordY, 5, 5);
             }
             
         }
