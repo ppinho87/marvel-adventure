@@ -13,5 +13,5 @@ Marvel Adventture in the form of an HTML5 game.
 -Press 'F1' to refresh the page and start over.
 
 **Demo**:  
-On Google App Engine: http://interactive-resume-191115.appspot.com/: P.S.
+On Google App Engine: https://marvel-adventure.appspot.com.  P.S.
 Please use in chrome (with a high-end computer for better performance). On the top left corner of the screen, an average number of frames per second is displayed. It should be around 60 frames/second.
